@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <title>Home</title>
+    <link rel="stylesheet" href="web%20Front%20end/assert/css/index-styles.css">
+</head>
+<body>
+    
+    <div id="main-container">
+
+        <div class="headder">
+            <nav class="nav-bar">
+                <ul class="nav-links">
+                    <li><a href="#" class="active-link">Home</a></li>
+                    <li><a href="web%20Front%20end/view.html">View</a></li>
+                    <li><a href="web%20Front%20end/update.html">update</a></li>
+                </ul>
+            </nav>
+    
+            <div class="button-area">
+                <button class="login-btn">Login</button>
+                <button class="sign-btn">Sign-up</button>
+            </div>
+            
+        </div>
+        
+        <div class="underline">
+            <hr>
+        </div>
+    
+        <div class="body-container">
+    
+            <div class="img-container">
+                <img src="web%20Front%20end/assert/img/fornt-img.png" alt="" class="student-img">
+            </div>
+    
+            <div class="form-container">
+    
+                <div class="topic-container">
+                    Fill the registation form
+                </div>
+    
+                <div class="question-container">
+                    <label for="firstName">Enter your first name :</label>
+                    <input type="text" id="firstName">
+                </div>
+    
+                <div class="question-container">
+                    <label for="lastName">Enter your last name :</label>
+                    <input type="text" id="lastName">
+                </div>
+    
+                <div class="question-container">
+                    <label for="school">What is your school :</label>
+                    <input type="text" id="school">
+                </div>
+    
+                <div class="question-layout">
+                    <div class="question-container">
+                        <label for="nic">Enter your NIC number :</label>
+                        <input type="text" id="nic" class="">
+                        <div class="warning-text display-none">*Nic is already taken.</div>
+                    </div>
+    
+                    <div class="question-container">
+                        <label for="age">What is your age :</label>
+                        <input type="text" id="age">
+                    </div>
+                </div>
+    
+    
+                <div class="question-container">
+                    <label for="email">Enter your email address :</label>
+                    <input type="text" id="email">
+                </div>
+                
+            
+                <div class="question-container">
+                    <label for="phoneNumber">Enter your phone number :</label>
+                    <input type="text" id="phoneNumber">
+                </div>
+    
+                <div>
+                    <button class="submitBtn" id="submitBtnId">Submit</button>
+                    <button class="clearBtn" id="clear-btn">Clear</button>
+                </div>
+    
+            </div>
+        </div>
+
+    </div>
+    
+    <div class="ok-msg display-none" id="okMsg">
+        <div>Registration Successful</div>
+        <button class="ok-btn" id="okBtn">Ok</button>
+    </div>
+    
+    <script src="web%20Front%20end/assert/js/index-app.js"></script>
+</body>
+</html>
+
+

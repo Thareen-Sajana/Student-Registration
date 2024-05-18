@@ -1,0 +1,303 @@
+body{
+    font-family: Poppins;
+    margin: 0;
+}
+
+
+ul li{
+    display: inline;
+}
+
+.active-link{
+    color: rgb(130, 129, 129);
+}
+
+.nav-links{
+    width: fit-content;
+    margin-left: 47%;
+}
+
+li a{
+    color: #0d6efd; 
+}
+
+.nav-links li{
+    margin-right: 17px;
+}
+
+.nav-bar{
+    align-items: center;
+    justify-content: center;
+}
+
+.underline hr{
+    grid-area: underline-nav;
+    width: 84%;
+    opacity: 0.7;
+}
+
+a{
+    text-decoration: none;
+}
+
+.underline{
+    align-items: center;
+}
+
+
+.student-img{
+    height: 110%;
+}
+
+.headder{
+    display: grid;
+    grid-template-columns: 80% 20%;
+}
+
+.sign-btn{
+    background-color: #0d6efd;
+    border-radius: 10px;
+    padding: 10px 15px 10px 15px;
+    border: solid 2px;
+    border-color: #0d6efd;
+    color: rgb(255, 255, 255);
+    font-size: 17px;
+}
+
+.sign-btn:hover{
+    opacity: 0.8;
+}
+
+.login-btn{
+    border-radius: 10px;
+    padding: 10px 20px 10px 20px;
+    border: solid 2px;
+    border-color: #0d6efd;
+    color: #0d6efd;
+    font-size: 17px;
+    background-color: white;
+    margin-right: 8px;
+}
+
+.login-btn:hover{
+    background-color: #0d6efd;
+    color: white;
+}
+
+
+
+.form-container{
+    background-color: white;
+    padding-right: 50px;
+    width: 50%;
+}
+
+.topic-container{
+    padding-top: 45px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 500;
+    padding-bottom: 45px;
+}
+
+.question-container{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+    color: rgb(50, 52, 52);
+}
+
+
+.question-layout{
+    display: grid;
+    grid-template-columns: 75% 25%;
+}
+
+#phoneNumber{
+    width: 65%;
+}
+
+#nic{
+    margin-right: 20px;
+}
+
+.updateBtn{
+    background-color: #0d6efd;
+    padding: 10px 20px 10px 20px;
+    color: white;
+    border: solid 2px;
+    border-color: #0d6efd;
+    font-size: 17px;
+    border-radius: 10px;
+}
+
+.updateBtn:hover{
+    opacity: 0.7;
+}
+
+
+.question-container input{
+    border: solid 1px;
+    border-color: #0d6efd;
+    height: 35px;
+    border-radius: 6px;
+    padding-left: 10px;
+    font-size: 17px;
+    color:  rgb(50, 52, 52);
+}
+
+
+.question-container input:focus{
+    box-shadow: 0px 0px 5px #5d99f4;
+    outline: none;
+}
+
+
+.question-container label{
+    padding-bottom: 8px;
+}
+
+.deleteBtn{
+    border-radius: 10px;
+    padding: 10px 20px 10px 20px;
+    border: solid 2px;
+    border-color: #cf0501;
+    color: white;
+    font-size: 17px;
+    background-color: #cf0501;
+    margin-left: 5px;
+}
+
+.deleteBtn:hover{
+    border-color: #cf0501;
+    background-color: white;
+    color: #cf0501;
+}
+
+
+.body-container{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 60px;
+}
+
+.search-container{
+    text-align: right;
+    margin-top: 3%;
+    padding-right: 7%;
+}
+
+.search-btn{
+    background-color: #0d6efd;
+    padding: 8px 20px 8px 20px;
+    color: white;
+    border: solid 2px;
+    border-color: #0d6efd;
+    font-size: 17px;
+    border-radius: 10px;
+}
+
+.search-btn:hover{
+    opacity: 0.5;
+}
+
+#searchNIC{
+    border: solid 2px;
+    border-color: #0d6efd;
+    height: 35px;
+    border-radius: 6px;
+    padding-left: 10px;
+    font-size: 17px;
+    color:  rgb(50, 52, 52);
+    width: 20%;
+    margin-right: 0.5%;
+}
+
+#searchNIC:focus{
+    box-shadow: 0px 0px 5px #0d6efd;
+    outline: none;
+}
+
+#searchNIC::placeholder{
+    color: #4088f6;
+    font-size: 10;
+}
+
+.main-container{
+    opacity: 0.3;
+}
+
+.display-none{
+    display: none;
+}
+
+.display-block{
+    display: block;
+}
+
+.ok-msg{
+    width: 20%;
+    padding: 2% 0% 2% 0%;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    z-index: 2;
+    border: solid 1px;
+    border-radius: 4px;
+    border-color: rgb(183, 181, 181);
+    color:  rgb(50, 52, 52);
+    position: fixed;
+    top: 45%;
+    left: 40%;
+}
+
+.ok-btn{
+    border: solid 1px;
+    background-color: #0d6efd;
+    color: white;
+    border-color: #0d6efd;
+    padding: 6px 17px 6px 17px;
+    border-radius: 5px;
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+.ok-btn:hover{
+    opacity: 0.6;
+}
+
+.delete-msg{
+    text-align: center;
+    background-color: #ffffff;
+    width: 23%;
+    padding: 2% 0% 2% 0%;
+    z-index: 2;
+    border: solid 1px;
+    border-radius: 4px;
+    border-color: rgb(183, 181, 181);
+    position: fixed;
+    top: 45%;
+    left: 38%;
+    color:  rgb(50, 52, 52);
+}
+
+.delete-msg button{
+    border: solid 1px;
+    border-radius: 5px;
+    padding: 6px 17px 6px 17px;
+    font-size: 14px;
+    margin-top: 15px;
+    color: white;
+}
+
+.yes-btn{
+    background-color: #cf0501;
+}
+
+.no-btn{
+    background-color: #0d6efd;
+}
+
+.yes-btn:hover, .no-btn:hover{
+    cursor: pointer;
+    opacity: 0.7;
+}

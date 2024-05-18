@@ -1,0 +1,10 @@
+
+¡	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(˜Úüÿÿÿÿ8é‘èô1J$8faedfcc-6b05-4e97-8881-679bff614666
+’
+java:S3655,"JCall "byNic.isPresent()" or "!byNic.isEmpty()" before accessing the value.(È‡Îéøÿÿÿÿ8ú‘èô1J$59e3c83d-e948-4f44-a96a-ca7c776287d5
+¢
+java:S36554"ZCall "studentEntity.isPresent()" or "!studentEntity.isEmpty()" before accessing the value.(ÈÈã ûÿÿÿÿ8ú‘èô1J$e4bfff24-ca92-4735-9322-72018844090c
+…
+java:S6813"BRemove this field injection and use constructor injection instead.(êæÄŞ8ı‘èô1J$133992a6-6163-4c94-80d4-70fefcef1d2a
+…
+java:S6813"BRemove this field injection and use constructor injection instead.(êæÄŞ8ı‘èô1J$ee16c891-7f52-4f7e-808a-773416ac630b
